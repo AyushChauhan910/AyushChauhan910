@@ -156,6 +156,3 @@ Room/floor planning tool with drag-drop, advanced alignment, furniture controls 
 ⭐ *Star my repositories if you find them interesting!*
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AyushChauhan910&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</div>
