@@ -137,14 +137,14 @@ Room/floor planning tool with drag-drop, advanced alignment, furniture controls 
 ## 📫 Let's Connect
 
 <div align="center">
-  <a href="mailto:ayuschauhan910@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ayuschauhan910@gmail.com-blue?style=flat-square&logo=gmail">
+  <a href="mailto:talktoayushchauhan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-talktoayushchauhan@gmail.com-blue?style=flat-square&logo=gmail">
   </a>
   <a href="https://linkedin.com/in/ayush-chauhan-bba21a315">
     <img src="https://img.shields.io/badge/LinkedIn-ayush--chauhan--bba21a315-blue?style=flat-square&logo=linkedin">
   </a>
-  <a href="https://ayushchauhan.dev">
-    <img src="https://img.shields.io/badge/Portfolio-ayushchauhan.dev-orange?style=flat-square&logo=vercel">
+  <a href="[https://ayushchauhan.dev](https://portfolio-website-chi-ebon-13.vercel.app/portfolio)">
+    <img src="https://img.shields.io/badge/Portfolio-ayushchauhan.portfolio-orange?style=flat-square&logo=vercel">
   </a>
 </div>
 
