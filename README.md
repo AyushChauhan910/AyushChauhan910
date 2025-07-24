@@ -8,7 +8,7 @@
 
 ## 👋 About Me
 
-Passionate about **AI/ML**, **Full-Stack Development**, and **System Design**, I thrive on building scalable applications, exploring emerging tech, and solving real-world problems with code. With **2,134+ contributions in the last year**, I am always learning and pushing boundaries.
+Passionate about **AI/ML**, **Full-Stack Development**, and **System Design**, I thrive on building scalable applications, exploring emerging tech, and solving real-world problems with code. With **2,100+ contributions in the last year**, I am always learning and pushing boundaries.
 
 ---
 
@@ -18,7 +18,7 @@ Passionate about **AI/ML**, **Full-Stack Development**, and **System Design**, I
 - 🌐 **Full-Stack Development** — End-to-end web application building  
 - 📊 **Data Science** — Data analytics & recommendation systems  
 - 🏗️ **System Architecture** — Designing scalable solutions  
-- ☁️ **Cloud Deployment** — Deploying apps on Vercel, Heroku, AWS  
+- ☁️ **Cloud Deployment** — Deploying apps on Vercel
 
 ---
 
@@ -43,24 +43,21 @@ Passionate about **AI/ML**, **Full-Stack Development**, and **System Design**, I
 - Node.js
 - Express.js
 - Flask
-- Django
 - FastAPI
 
 ### 🗄️ Databases
 - MongoDB
 - PostgreSQL
-- SQLite
-- Firebase
 
 ### 🧠 AI/ML & Data Science
-- TensorFlow, PyTorch, Keras, Scikit-Learn
+- TensorFlow, PyTorch, Scikit-Learn
 - OpenCV
 - Pandas, NumPy
 
 ### 🧰 Tools & Platforms
 - Git & GitHub Actions
 - Docker
-- AWS, Vercel, Heroku
+- Vercel
 - Figma
 
 ---
@@ -115,19 +112,19 @@ Room/floor planning tool with drag-drop, advanced alignment, furniture controls 
 
 ## 🏆 Achievements & Impact
 
-- 🔥 2,134+ contributions last year  
+- 🔥 2,100+ contributions last year  
 - 🌐 8+ deployed applications  
 - 📈 AI/ML projects in CV, NLP, recommendation  
-- 🧩 Full-stack: MERN, MEAN, Python stacks  
+- 🧩 Full-stack: MERN, Python stacks  
 - 📱 Mobile-first & responsive designs  
-- ☁️ Cloud deployment on AWS, Vercel, Heroku
+- ☁️ Cloud deployment on Vercel
 
 ---
 
 ## 🎯 Current Focus
 
 - 🤖 Deep Learning Research  
-- ☁️ Cloud Computing (AWS, Docker)  
+- ☁️ Cloud Computing (Docker)  
 - 🔄 Data Engineering: Pipelines & Analytics  
 - 🔍 AI Ethics & Responsible AI  
 - 🛠️ Open-Source Contributions  
