@@ -111,10 +111,6 @@ Room/floor planning tool with drag-drop, advanced alignment, furniture controls 
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushChauhan910&layout=compact&langs_count=16&theme=tokyonight"/>
 </div>
 
-<div align="center">
-  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=AyushChauahn910&theme=tokyonight&hide_total_contributions=true&hide_current_streak=true&hide_longest_streak=true" alt="GitHub Streak" /></a>
-</div>
-
 ---
 
 ## 🏆 Achievements & Impact
