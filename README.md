@@ -1,7 +1,7 @@
 # 🚀 Ayush Chauhan - Full-Stack Developer & AI/ML Enthusiast
 
 **Computer Science Student @ BITS Pilani, Hyderabad Campus**  
-🌐 Portfolio: [ayushchauhan.dev]([https://ayushchauhan.dev](https://portfolio-website-chi-ebon-13.vercel.app/portfolio))  
+🌐 Portfolio: ([https://ayushchauhan.dev](https://portfolio-website-chi-ebon-13.vercel.app/portfolio))  
 💼 LinkedIn: [ayush-chauhan-bba21a315](https://linkedin.com/in/ayush-chauhan-bba21a315)
 
 ---
