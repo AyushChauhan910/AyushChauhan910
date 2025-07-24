@@ -140,8 +140,8 @@ Room/floor planning tool with drag-drop, advanced alignment, furniture controls 
   <a href="https://linkedin.com/in/ayush-chauhan-bba21a315">
     <img src="https://img.shields.io/badge/LinkedIn-ayush--chauhan--bba21a315-blue?style=flat-square&logo=linkedin">
   </a>
-  <a href="[https://ayushchauhan.dev](https://portfolio-website-chi-ebon-13.vercel.app)">
-    <img src="https://img.shields.io/badge/Portfolio-ayushchauhan.dev-orange?style=flat-square&logo=vercel">
+  <a href="https://portfolio-website-chi-ebon-13.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-ayushchauhan.portfolio-orange?style=flat-square&logo=vercel">
   </a>
 </div>
 
