@@ -1,88 +1,172 @@
-<h1 align="center">Ayush Chauhan</h1>
-<p align="center">
-  Computer Science @ BITS Pilani, Hyderabad · AI/ML · Full-Stack · Agentic Systems
-</p>
-<p align="center">
-  <a href="mailto:talktoayushchauhan@gmail.com">Email</a> ·
-  <a href="https://linkedin.com/in/ayush-chauhan-bba21a315">LinkedIn</a> ·
-  <a href="https://portfolio-website-chi-ebon-13.vercel.app/">Portfolio</a>
-</p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=header" width="100%"/>
+
+# Ayush Chauhan
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=B.E.+Computer+Science+%40+BITS+Pilani;Building+Agentic+AI+%26+Production+Systems;LangGraph+%C2%B7+RAG+%C2%B7+Full-Stack+%C2%B7+MLOps)](https://git.io/typing-svg)
+
+<br/>
+
+[![Email](https://img.shields.io/badge/Email-talktoayushchauhan%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:talktoayushchauhan@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ayush--chauhan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-chauhan-bba21a315)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-8B5CF6?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-website-chi-ebon-13.vercel.app/)
+
+</div>
 
 ---
 
-## About
+## `$ whoami`
 
-B.E. Computer Science student at BITS Pilani (2023–2027) focused on building production-grade AI systems and full-stack applications. I work across the stack — from LangGraph agentic pipelines and RAG systems to React frontends and containerized APIs.
-
-Currently exploring: Agentic AI, Data Engineering, and Open-Source contributions.
-
----
-
-## Featured Projects
-
-### [FinSight — Autonomous Financial Research Agent](https://fin-sight-full.vercel.app)
-`LangGraph · LangChain · ChromaDB · FastAPI · React · Groq (Llama 3.1 70B)`
-
-- Architected a 5-stage stateful LangGraph agent (decompose → retrieve → draft → validate → retry) with self-correcting hallucination detection, served via FastAPI with SSE for real-time token streaming
-- Built async SEC EDGAR ingestion pipeline (httpx + asyncio) for 200-page 10-K/10-Q filings into ChromaDB with BGE-small embeddings — ~60% faster than sequential processing
-- Benchmarked on a 50-question financial QA set: **87% accuracy vs 61% for naive RAG** (43% relative improvement)
-- Shipped full-stack to production with live agent trace visualization, citation drawer, and 5-tab analyst report UI
-
-### [PLGA Microsphere Drug Release Prediction](https://github.com/AyushChauhan910/PLGA)
-`Python · XGBoost · LightGBM · SHAP · scikit-learn`
-
-- Engineered 11 domain-informed features grounded in polymer degradation theory; expanded 25-formulation dataset to 450+ samples via sliding-window augmentation
-- Built 7-model comparison pipeline with LOO-CV; stacked ensemble: **RMSE = 4.39%, R² = 0.820**
-- LightGBM achieved **12.1% MAE**, outperforming neural networks (15.6%) — consistent with tree ensemble superiority on small pharmaceutical datasets
-- SHAP analysis confirmed Drug LogP, GA fraction, and Tg offset as primary release modulators
-- **Under review** at Journal of Controlled Release (2026)
-
-### [Production-Scale Deepfake Detection System](https://deepfakedetector.app)
-`PyTorch · Flask · React.js · Docker · OpenCV`
-
-- Multimodal detection (image, video, audio) via CNN-LSTM + audio spectral analysis — **91.3% F1-score** on FaceForensics++
-- Reduced inference latency from ~3.4s to **2.0s (41% improvement)** via frame-level temporal attention
-- Containerized Flask API (Docker + Render) sustaining **500+ daily requests at p95 < 1.8s** under Locust load testing
-- React dashboard with drag-and-drop upload and real-time confidence scoring — **200+ unique users within 3 weeks**
+```python
+ayush = {
+    "degree"   : "B.E. Computer Science @ BITS Pilani (2023–2027)",
+    "focus"    : ["Agentic AI", "LLM Systems", "Full-Stack Engineering"],
+    "building" : "Production-grade AI pipelines — RAG, LangGraph, MLOps",
+    "exploring": ["Agentic Frameworks", "Data Engineering", "Open Source"],
+}
+```
 
 ---
 
-## Open-Source Contributions
+## ⚡ Featured Projects
 
-### [facebookresearch/sam2](https://github.com/AyushChauhan910/sam2/tree/feat/adaptive-temporal-sampler) — Meta FAIR ⭐ 18.5k
-- Implemented a motion-adaptive temporal frame sampler replacing uniform stride with motion-density-proportional allocation using lightweight L1 pixel-diff scoring
-- Measured **4.1% mean improvement** in high-motion frame coverage across 15 DAVIS-2017 sequences; 80–108% gains on motion-burst sequences
-- Integrated backward-compatibly via opt-in Hydra config with 8 unit tests — zero regression on DAVIS-2017 val (J&F = 88.43 maintained)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 [FinSight — Autonomous Financial Agent](https://fin-sight-full.vercel.app)
+![LangGraph](https://img.shields.io/badge/LangGraph-000?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
+![Groq](https://img.shields.io/badge/Groq_Llama_70B-F55036?style=flat-square)
+
+5-stage stateful agent with self-correcting hallucination detection, async SEC EDGAR ingestion, and real-time SSE token streaming.
+
+**`87% QA accuracy`** vs 61% naive RAG — 43% relative improvement
+
+</td>
+<td width="50%" valign="top">
+
+### 🧬 [PLGA Drug Release Predictor](https://github.com/AyushChauhan910/PLGA)
+![XGBoost](https://img.shields.io/badge/XGBoost-E65100?style=flat-square)
+![LightGBM](https://img.shields.io/badge/LightGBM-76B900?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-8B5CF6?style=flat-square)
+
+11 domain-informed features, 450+ augmented samples via sliding-window. Stacked ensemble with LOO-CV validation.
+
+**`R² = 0.820 · RMSE = 4.39%`** · Under Review @ JCR 2026
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎭 [Deepfake Detection System](https://deepfakedetector.app)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask)
+
+Multimodal (image/video/audio) CNN-LSTM + spectral analysis pipeline. 41% latency reduction via temporal attention.
+
+**`91.3% F1`** · `500+ daily req @ p95 < 1.8s`
+
+</td>
+<td width="50%" valign="top">
+
+### 🗃️ SQL Data Analysis Agent *(Hackathon)*
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HF_Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
+OpenEnv-compliant SQL Analyst Agent with Pydantic v2 validation. Deployed to Hugging Face Spaces.
+
+**`Top 30%`** — OpenEnv Hackathon (Hugging Face × Meta)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Experience
+## 🔧 Open Source
 
-**Digital Transformation Intern** — Absolute Smart Solutions *(May–July 2025)*
-- Built Next.js + Tailwind corporate platform with Core Web Vitals optimization (LCP < 2.1s), driving **30% lift in qualified leads** over 6 weeks
-- Translated 12 Figma specs into reusable React components; reduced image payload by **65%** via WebP + lazy loading
-- Built Python + Jira REST API automation to auto-triage tickets, cutting manual tracking overhead by **20%** across a 6-person team
+**[`facebookresearch/sam2`](https://github.com/AyushChauhan910/sam2/tree/feat/adaptive-temporal-sampler)** — Meta FAIR · ⭐ 18.5k
 
----
+> Motion-adaptive temporal frame sampler replacing uniform stride with motion-density-proportional allocation via L1 pixel-diff scoring.
 
-## Competitive Programming & Achievements
-
-- **Kaggle Titanic** — Top 24% (2,951 / 12,300+ teams) | Stacked XGBoost + LightGBM + CatBoost ensemble · 0.787 accuracy
-- **OpenEnv Hackathon (Hugging Face × Meta)** — Round 2 Qualifier, Top 30% | Built OpenEnv-compliant SQL Analyst Agent
+- **`+4.1% mean improvement`** in high-motion frame coverage across 15 DAVIS-2017 sequences
+- 80–108% gains on motion-burst sequences · Zero regression (J&F = 88.43 maintained)
+- Integrated via opt-in Hydra config · 8 unit tests · PR open
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-**Languages:** Python, JavaScript/TypeScript, SQL, Java, C++  
-**AI/ML:** PyTorch, Scikit-Learn, XGBoost, LightGBM, LangChain, LangGraph, RAG, FAISS, ChromaDB, OpenCV, Librosa, SHAP  
-**Frontend:** React.js, Next.js, Redux, Tailwind CSS  
-**Backend:** Node.js, Express.js, Flask, FastAPI  
-**Databases:** MongoDB, PostgreSQL  
-**DevOps:** Docker, Vercel, Render, Hugging Face Spaces, GitHub Actions  
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+**AI / ML**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-E65100?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+**Frontend & Backend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+**DevOps & Cloud**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HF_Spaces-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AyushChauhan910&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushChauhan910&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="160"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AyushChauhan910&theme=tokyonight&hide_border=true" height="160"/>
+</div>
+
+---
+
+## 🏆 Highlights
+
+| Achievement | Result |
+|---|---|
+| 📄 Journal of Controlled Release (2026) | Under Review |
+| 🥇 OpenEnv Hackathon — Hugging Face × Meta | Finalist · Top 2% of 52,000+ teams |
+| 🤗 Meta FAIR SAM2 Contribution | ⭐ 18.5k repo · PR Open |
+| 📊 Kaggle Titanic | Top 24% · 12,300+ teams |
 
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushChauhan910&layout=compact&langs_count=10&theme=tokyonight" height="160"/>
+
+*"Ship fast, measure everything, iterate."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=80&section=footer" width="100%"/>
+
 </div>
