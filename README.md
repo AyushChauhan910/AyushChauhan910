@@ -10,7 +10,7 @@
 
 [![Email](https://img.shields.io/badge/Email-talktoayushchauhan%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:talktoayushchauhan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ayush--chauhan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushchauhan910)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-8B5CF6?style=flat-square&logo=vercel&logoColor=white)](https://ayushchauhan.dev)
+
 
 </div>
 
