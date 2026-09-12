@@ -9,8 +9,8 @@
 <br/>
 
 [![Email](https://img.shields.io/badge/Email-talktoayushchauhan%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:talktoayushchauhan@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ayush--chauhan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-chauhan-bba21a315)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-8B5CF6?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-website-chi-ebon-13.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ayush--chauhan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushchauhan910)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-8B5CF6?style=flat-square&logo=vercel&logoColor=white)](https://ayushchauhan.dev)
 
 </div>
 
@@ -20,6 +20,7 @@
 
 ```python
 ayush = {
+    "working"  : "AI Evaluation & Agent Infrastructure @ Ather Energy",
     "degree"   : "B.E. Computer Science @ BITS Pilani (2023–2027)",
     "focus"    : ["Agentic AI", "LLM Systems", "Full-Stack Engineering"],
     "building" : "Production-grade AI pipelines — RAG, LangGraph, MLOps",
@@ -55,21 +56,18 @@ ayush = {
 
 11 domain-informed features, 450+ augmented samples via sliding-window. Stacked ensemble with LOO-CV validation.
 
-**`R² = 0.820 · RMSE = 4.39%`** · Under Review @ JCR 2026
+**`XGBoost R² = 0.867 · ensemble RMSE = 4.39%`** · Under Review @ JCR 2026
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🎭 [Deepfake Detection System](https://deepfakedetector.app)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask)
+### 🔎 [Deep Research Agent](https://github.com/AyushChauhan910/Deep-Research-Agent)
 
-Multimodal (image/video/audio) CNN-LSTM + spectral analysis pipeline. 41% latency reduction via temporal attention.
+Citation-grounded web research agent built with no agent framework — a custom Plan → Search → Fetch → Select → Synthesize → Critic loop that re-searches when grounding scores fall below threshold.
 
-**`91.3% F1`** · `500+ daily req @ p95 < 1.8s`
+**`4.3/5 grounding`** · 4.8/5 relevance under its own five-metric eval harness
 
 </td>
 <td width="50%" valign="top">
@@ -81,7 +79,7 @@ Multimodal (image/video/audio) CNN-LSTM + spectral analysis pipeline. 41% latenc
 
 OpenEnv-compliant SQL Analyst Agent with Pydantic v2 validation. Deployed to Hugging Face Spaces.
 
-**`Top 30%`** — OpenEnv Hackathon (Hugging Face × Meta)
+**`Top 2% of 52,000+ teams`** — OpenEnv Hackathon (Hugging Face × Meta)
 
 </td>
 </tr>
@@ -91,13 +89,13 @@ OpenEnv-compliant SQL Analyst Agent with Pydantic v2 validation. Deployed to Hug
 
 ## 🔧 Open Source
 
-**[`facebookresearch/sam2`](https://github.com/AyushChauhan910/sam2/tree/feat/adaptive-temporal-sampler)** — Meta FAIR · ⭐ 18.5k
+**[`facebookresearch/sam2`](https://github.com/AyushChauhan910/sam2/tree/feat/adaptive-temporal-sampler)** — Meta FAIR
 
 > Motion-adaptive temporal frame sampler replacing uniform stride with motion-density-proportional allocation via L1 pixel-diff scoring.
 
 - **`+4.1% mean improvement`** in high-motion frame coverage across 15 DAVIS-2017 sequences
-- 80–108% gains on motion-burst sequences · Zero regression (J&F = 88.43 maintained)
-- Integrated via opt-in Hydra config · 8 unit tests · PR open
+- 80–108% gains on motion-burst sequences
+- Integrated via opt-in Hydra config · 8 unit tests · Proposed contribution — issue raised upstream, not a merged PR
 
 ---
 
@@ -139,18 +137,6 @@ OpenEnv-compliant SQL Analyst Agent with Pydantic v2 validation. Deployed to Hug
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AyushChauhan910&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushChauhan910&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="160"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AyushChauhan910&theme=tokyonight&hide_border=true" height="160"/>
-</div>
-
----
 
 ## 🏆 Highlights
 
@@ -158,8 +144,7 @@ OpenEnv-compliant SQL Analyst Agent with Pydantic v2 validation. Deployed to Hug
 |---|---|
 | 📄 Journal of Controlled Release (2026) | Under Review |
 | 🥇 OpenEnv Hackathon — Hugging Face × Meta | Finalist · Top 2% of 52,000+ teams |
-| 🤗 Meta FAIR SAM2 Contribution | ⭐ 18.5k repo · PR Open |
-| 📊 Kaggle Titanic | Top 24% · 12,300+ teams |
+| 🤗 facebookresearch/sam2 contribution | Proposed — not merged |
 
 ---
 
